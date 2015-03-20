@@ -3,7 +3,7 @@
   $file = "images/example.png";
   $resize = new resize($file);
   $resize->resizeImage(750, 500, 'auto'); // default: auto - @params: auto, crop, landscape, portrait, exact
-  $resize->saveImage($resimyolu, 100);
+  $resize->saveImage($file, 100); // $file or newfolder/$file # quality = 100
 */
 
 class resize
